@@ -1,0 +1,96 @@
+2020/05/03 09:28:12 Loading config: /home/pool/egem-pool/config_api.json
+2020/05/03 09:28:12 Running with 2 threads
+2020/05/03 09:28:12 Backend check reply: PONG
+2020/05/03 09:28:12 Starting API on 0.0.0.0:7070
+2020/05/03 09:28:12 Set stats collect interval to 5s
+2020/05/03 09:28:12 Set purge interval to 10m0s
+2020/05/03 09:28:12 Purged stale stats from backend, 7 shares affected, elapsed time 606.914µs
+2020/05/03 09:28:12 Stats collection finished 17.960706ms
+2020/05/03 09:28:12 pool charts config is :*/10 * * * *
+2020/05/03 09:28:12 miner charts config is :*/10 * * * *
+2020/05/03 09:28:17 Stats collection finished 9.907384ms
+2020/05/03 09:28:22 Stats collection finished 11.967571ms
+2020/05/03 09:28:28 Stats collection finished 11.861383ms
+2020/05/03 09:28:33 Stats collection finished 11.947064ms
+2020/05/03 09:28:38 Stats collection finished 10.852613ms
+2020/05/03 09:28:43 Stats collection finished 10.576106ms
+2020/05/03 09:28:48 Stats collection finished 10.67859ms
+2020/05/03 09:28:53 Stats collection finished 11.606576ms
+2020/05/03 09:28:58 Stats collection finished 10.577763ms
+2020/05/03 09:29:03 Stats collection finished 11.24768ms
+2020/05/03 09:29:08 Stats collection finished 10.941276ms
+2020/05/03 09:29:13 Stats collection finished 10.962431ms
+2020/05/03 09:29:18 Stats collection finished 11.100834ms
+2020/05/03 09:29:23 Stats collection finished 11.022144ms
+2020/05/03 09:29:28 Stats collection finished 10.972671ms
+2020/05/03 09:29:33 Stats collection finished 10.62026ms
+2020/05/03 09:29:38 Stats collection finished 10.943484ms
+2020/05/03 09:29:43 Stats collection finished 8.469811ms
+2020/05/03 09:29:48 Stats collection finished 11.589994ms
+2020/05/03 09:29:53 Stats collection finished 16.949595ms
+2020/05/03 09:29:58 Stats collection finished 13.10385ms
+2020/05/03 09:30:00 Miner 0xe4d3ae3a3a3a9810ca42f8e9f0235cf4fed644f0 Hash is 1588491000 2020-05-03 09_30 133333333 148423005
+2020/05/03 09:30:00 Miner 0x1d1c06a2b226ad1fc064ebc51e11ca193c51bef5 Hash is 1588491000 2020-05-03 09_30 64444444 55405782
+2020/05/03 09:30:00 Miner 0x909b0760389695782ee4907d65887b23dd4863dc Hash is 1588491000 2020-05-03 09_30 153333333 162508116
+2020/05/03 09:30:03 Stats collection finished 13.565618ms
+2020/05/03 09:30:08 Stats collection finished 10.935508ms
+2020/05/03 09:30:13 Stats collection finished 12.369885ms
+2020/05/03 09:30:18 Stats collection finished 11.067119ms
+2020/05/03 09:30:23 Stats collection finished 10.356393ms
+2020/05/03 09:30:28 Stats collection finished 12.137589ms
+2020/05/03 09:30:33 Stats collection finished 12.294537ms
+2020/05/03 09:30:38 Stats collection finished 11.518309ms
+2020/05/03 09:30:43 Stats collection finished 11.148263ms
+2020/05/03 09:30:48 Stats collection finished 12.34082ms
+2020/05/03 09:30:53 Stats collection finished 11.496833ms
+2020/05/03 09:30:58 Stats collection finished 11.474668ms
+2020/05/03 09:31:03 Stats collection finished 15.08624ms
+2020/05/03 09:31:08 Stats collection finished 12.410754ms
+2020/05/03 09:31:13 Stats collection finished 11.395346ms
+2020/05/03 09:31:18 Stats collection finished 14.876272ms
+2020/05/03 09:31:23 Stats collection finished 10.990024ms
+2020/05/03 09:31:28 Stats collection finished 12.972893ms
+2020/05/03 09:31:33 Stats collection finished 11.342771ms
+2020/05/03 09:31:38 Stats collection finished 11.519288ms
+2020/05/03 09:31:43 Stats collection finished 10.586956ms
+2020/05/03 09:31:48 Stats collection finished 11.30649ms
+2020/05/03 09:31:53 Stats collection finished 10.945065ms
+2020/05/03 09:31:58 Stats collection finished 11.534586ms
+2020/05/03 09:32:03 Stats collection finished 10.852179ms
+2020/05/03 09:32:08 Stats collection finished 10.743822ms
+2020/05/03 09:32:13 Stats collection finished 12.236639ms
+2020/05/03 09:32:18 Stats collection finished 10.837439ms
+2020/05/03 09:32:23 Stats collection finished 10.672237ms
+2020/05/03 09:32:28 Stats collection finished 19.577838ms
+2020/05/03 09:32:33 Stats collection finished 11.448658ms
+2020/05/03 09:32:38 Stats collection finished 8.590561ms
+2020/05/03 09:32:43 Stats collection finished 11.094891ms
+2020/05/03 09:32:48 Stats collection finished 19.146734ms
+2020/05/03 09:32:53 Stats collection finished 10.780905ms
+2020/05/03 09:32:58 Stats collection finished 10.983429ms
+2020/05/03 09:33:03 Stats collection finished 20.642699ms
+2020/05/03 09:33:08 Stats collection finished 11.834211ms
+2020/05/03 09:33:13 Stats collection finished 10.120507ms
+2020/05/03 09:33:18 Stats collection finished 14.720485ms
+2020/05/03 09:33:23 Stats collection finished 11.320624ms
+2020/05/03 09:33:28 Stats collection finished 11.685482ms
+2020/05/03 09:33:33 Stats collection finished 13.177296ms
+2020/05/03 09:33:38 Stats collection finished 11.253386ms
+2020/05/03 09:33:43 Stats collection finished 10.786147ms
+2020/05/03 09:33:48 Stats collection finished 11.087484ms
+2020/05/03 09:33:53 Stats collection finished 11.729697ms
+2020/05/03 09:33:58 Stats collection finished 11.412381ms
+2020/05/03 09:34:03 Stats collection finished 9.96354ms
+2020/05/03 09:34:08 Stats collection finished 13.079103ms
+2020/05/03 09:34:13 Stats collection finished 10.817519ms
+2020/05/03 09:34:18 Stats collection finished 12.765371ms
+2020/05/03 09:34:23 Stats collection finished 11.099793ms
+2020/05/03 09:34:28 Stats collection finished 11.031036ms
+2020/05/03 09:34:33 Stats collection finished 11.199467ms
+2020/05/03 09:34:38 Stats collection finished 11.061042ms
+2020/05/03 09:34:43 Stats collection finished 11.131478ms
+2020/05/03 09:34:48 Stats collection finished 11.740927ms
+2020/05/03 09:34:53 Stats collection finished 10.883509ms
+2020/05/03 09:34:58 Stats collection finished 12.770076ms
+2020/05/03 09:35:03 Stats collection finished 10.49745ms
+2020/05/03 09:35:08 Failed to fetch stats from backend: redis: nil

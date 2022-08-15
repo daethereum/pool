@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="page-header">
+    <h1>How To Mine</h1>
+  </div>
+  <h3 id="step-3-configuration">Configuration</h3>
+
+
+  <p><strong>Mine by GPUs</strong></p>
+
+  <p><a href="https://phoenixminer.org/download/">PhoenixMiner</a>, <a href="https://github.com/trexminer/T-Rex/releases">T-REX</a>, <a href="https://github.com/Lolliedieb/lolMiner-releases/releases">lolMiner</a></p>
+
+
+  <p>After you have downloaded your chosen mining software, uncompress it, find the <code class="highlighter-rouge">start.bat</code> or <code class="highlighter-rouge">start.cmd</code> file, right-click on it, and click <code class="highlighter-rouge">Edit</code>.</p>
+
+  <p>Replace the file’s existing commands with the commands from the chart below that correspond to your chosen mining software.</p>
+
+  <table class="table table-bordered table-responsive">
+    <thead>
+    <tr>
+      <th style="text-align: center">Software</th>
+      <th style="text-align: center">Commands</th>
+      <th style="text-align: center">Notes</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="text-align: center">PhoenixMiner</td>
+      <td style="text-align: center">PhoenixMiner.exe -pool stratum+tcp://efrom.org:4444 -wal <code class="highlighter-rouge">account_name</code> -worker <code class="highlighter-rouge">worker_name</code> -pass x</td>
+      <td style="text-align: center">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T-REX</td>
+      <td style="text-align: center">t-rex.exe -a ethash -o stratum+tcp://efrom.org:4444 -u  <code  class="highlighter-rouge">account_name</code> -w <code class="highlighter-rouge">worker_name</code> -p  x</td>
+      <td style="text-align: center">-</td>
+    </tr>
+
+    <tr>
+      <td style="text-align: center">lolMiner</td>
+      <td style="text-align: center">lolMiner.exe –algo ETHASH –pool stratum+tcp://efrom.org:4444 –user <code class="highlighter-rouge">account_name</code>.<code class="highlighter-rouge">worker_name</code></td>
+      <td style="text-align: center">-</td>
+    </tr>
+
+    </tbody>
+  </table>
+
+  <p>Replace <code class="highlighter-rouge">account_name</code> with your DAE mining account name set in Step 2.</p>
+
+  <p>Finally, save the start file and exit. Double-click the start file when you’re ready to start mining.</p>
+</div>
