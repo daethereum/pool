@@ -1469,13 +1469,15 @@ func (r *RedisClient) WritePasswordByMiner(login string, password string) {
 	r.client.HSet(r.formatKey("settings", login), "password", password)
 }
 
-func (r *RedisClient) StoreExchangeData(exchangeData ExchangeData) {
+//func (r *RedisClient) StoreExchangeData(exchangeData ExchangeData) {
+func (r *RedisClient) StoreExchangeData() {
 
 	tx := r.client.Multi()
 	defer tx.Close()
 
-	s := fmt.Sprintf("%f", exchangeData.AveragePrice_USD) // s == "123.456000"
-
+	// s := fmt.Sprintf("%f", exchangeData.AveragePrice_USD)
+	//s := "0.00256000"
+	s := fmt.Sprintf("%f", 0.00256000)
 	cmd := tx.HSet(r.formatKey("exchange", "ETC"), "price_usd", s)
 
 	err := cmd.Err()

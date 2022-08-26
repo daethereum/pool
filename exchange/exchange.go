@@ -88,22 +88,23 @@ func (u *ExchangeProcessor) Start() {
 
 func (u *ExchangeProcessor) fetchData() {
 
-	reply, err := u.rpc.GetData()
-
-	if err != nil {
-		log.Printf("Failed to fetch data from exchange %v", err)
-		return
-	}
-
-	log.Printf("Reply %v", reply)
+	//reply, err := u.rpc.GetData()
+	//
+	//if err != nil {
+	//	log.Printf("Failed to fetch data from exchange %v", err)
+	//	//return
+	//}
+	//
+	//log.Printf("Reply %v", reply)
 
 	//Store the data into the Redis Store
-	u.backend.StoreExchangeData(reply)
+	//u.backend.StoreExchangeData(reply)
+	u.backend.StoreExchangeData()
 
-	if err != nil {
-		log.Printf("Failed to Store the data to echange %v", err)
-		return
-	}
+	//if err != nil {
+	//	log.Printf("Failed to Store the data to echange %v", err)
+	//	//return
+	//}
 
 	return
 }
